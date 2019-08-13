@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*-----------------------------------------------Colours */
+
+.navbar {
+    background-color: #0066ff;
+}
+
+.navbar-brand {
+    background-color: #0066ff;
+}
+
+.nav-link {
+    background-color: #0066ff;
+}
+
+.navbar-nav {
+    background-color: #0066ff;
+}
+
+div#navbarNavDropdown.collapse.navbar-collapse {
+    background-color: #0066ff;
+}
+
+button.navbar-toggler {
+    background-color: #0066ff;
+}
+
+span.navbar-toggler-icon {
+    background-color: #0066ff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand {
+    color: #fff;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #fff;
+}
+
+.navbar-light .navbar-toggler {
+    color: #fff;
+}
+
+/* ----------------------------colours footer */
+
+.panel-heading {
+    background-color: #5297FF;
+    color: #fff;
+}
+
+.panel-body {
+    background-color: #0066ff;
+    color: #fff;
+}
+
+/* ---------------------------------Special paddings/margin/text */
+
+body {
+    font-family: "Roboto", Sans-serif;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+/* ---------------------------------Heading */
+
+
+
+
+/* -----------------------------Footer */
+
+.panel-title {
+    font-family: "Roboto", Sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.panel-body {
+    text-align: center;
+}
