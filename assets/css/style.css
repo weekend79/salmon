@@ -154,7 +154,7 @@ i.fa.fa-arrow-alt-circle-down {
 /* ----------------------------Section */
 
 .background-img { 
-  background: url("https://i.imgur.com/7hWXS1j.jpg") no-repeat center center fixed; 
+  background: url("https://i.imgur.com/OZRAo54.jpg") no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -264,8 +264,10 @@ a.btn.btn-primary {
 }
 
 img.img-circle {
+    border: 1px solid #0066ff;
     margin-left: 33%;
     margin-right: 33%;
+    max-width: 33%;
 }
 
 i.fa.fa-check-circle {
