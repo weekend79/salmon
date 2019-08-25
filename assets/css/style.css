@@ -232,7 +232,7 @@ form.form-horizontal {
     border: solid 1px #fff;
     max-width: 350px;
     border-radius: 15px;
-    background-color: transparent;
+    background-color: #5297FF;
     margin-bottom: 100px; 
 }
 
@@ -300,7 +300,7 @@ footer div.row {
 }
 
 .form-control {
-    max-width: 90%;
+    max-width: 95%;
     margin: 2%;
 }
 
@@ -315,4 +315,17 @@ footer div.row {
 
 .btn.btn-primary.btn-lg {
     margin-left: 2%;
+}
+
+
+/* -------------------------------Contact us */
+
+address a {
+    color: #262626;
+}
+
+
+
+.img-fix-2 {
+    max-width: 75%;
 }
