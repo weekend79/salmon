@@ -241,8 +241,11 @@ form.form-horizontal {
     margin-top: 30px;
 }
 
+.thumbnail {
+    text-align: center;
+}
 
-img.img-circle {
+img.rounded-circle {
     border: 1px solid #0066ff;
     margin-left: 33%;
     margin-right: 33%;
