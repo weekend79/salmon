@@ -186,10 +186,13 @@ div.row {
     margin: 0;
 }
 
+div.row.borderline-top {
+    border-top: 1px solid #262626;
+}
+
 div.caption {
     text-align: center;
 }
-
 
 h1.text-fix {
     color: #fff;
@@ -266,6 +269,8 @@ i.fa.fa-play {
 
 
 
+
+
 /* -----------------------------Footer */
 
 .panel-title {
@@ -332,3 +337,69 @@ address a {
 .img-fix-2 {
     max-width: 75%;
 }
+
+/* -----------------------Dashboard */
+
+td a {
+    color: #262626;
+}
+
+#piechart {
+    width: 400px;
+    height: 400px;
+}
+
+#chart_div {
+    width: 400px;
+    height: 400px;
+}
+
+#donutchart {
+    width: 400px;
+    height: 400px;
+}
+
+div.col-md-6 {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
+div#piechart.col-md-6.col-md-offset-6 {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+div#donutchart.col-md-6.col-md-offset-6 {
+    padding-left: 0;
+    padding-top: 0;
+}
+
+
+/* ----------------- Rules page */
+
+.img-thumbnail {
+    padding: 30px;
+    background-color: #5297FF;
+    max-height: 500px;
+}
+
+.rules-margin {
+    margin: 30px 20px 150px 20px;
+}
+
+h3.text-center {
+    text-align: center;
+}
+
+h3.text-margin {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+div.col.inline-block {
+    padding: 0;
+}
+
