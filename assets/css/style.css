@@ -360,16 +360,7 @@ td a {
     padding-top: 15px;
 }
 
-div#piechart.col-xs.12 {
-    margin-left: 10px;
-    margin-right: 0;
-}
 
-div#donutchart.col-xs.12 {
-    max-width: 100%;
-    margin-left: 50px;
-    margin-right: 0;
-}
 
 rect {
     max-width: 50%;
