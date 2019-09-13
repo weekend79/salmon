@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
 /*-----------------------------------------------Colours */
 
 .navbar {
@@ -81,6 +83,7 @@ body {
     font-family: "Roboto", Sans-serif;
     color: #262626;
     overflow-x: hidden;
+    
 }
 
 
@@ -97,7 +100,15 @@ h4 {
     margin-top: 15px;
 }
 
+.borderline-top {
+    border-top: 1px solid #262626;
+}
+
+
+
 /* ---------------------------------Heading */
+
+
 
 /* ---------------------Navbar */
 
@@ -112,10 +123,12 @@ h4 {
 }
 
 i.fa.fa-home {
+    display: block;
     margin: 0 33%;
 }
 
 i.fa.fa-at {
+    display: block;
     margin: 0 33%;
 }
 
@@ -125,19 +138,21 @@ i.fa.fa-sign-in-alt {
 
 i.fa.fa-film {
     display: block;   
-    margin: 4% 33%;
+    margin: 0% 33%;
 }
 
 i.fa.fa-registered {
     display: block;   
-    margin: 3% 33%; 
+    margin: 0% 33%; 
 }
 
 i.fa.fa-id-badge {
+    display: block;
     margin: 0 33%;
 }
 
 i.fa.fa-arrow-down {
+    display: block;
     margin: 0 33%;
 }
 
@@ -145,6 +160,15 @@ i.fa.fa-arrow-alt-circle-down {
     display: block;
     margin: 0 33%;
 }
+a.nav-link.uppercase {
+    text-align: center;
+}
+
+a.nav-link {
+    text-align: center;
+}
+
+
 
 /* ----------------------------Section */
 
@@ -162,6 +186,7 @@ div {
 
 div.container {
     padding: 0;
+    
 }
 
 div.form-group {
@@ -179,7 +204,7 @@ div.col-md-6.offset-md-3 {
 
 div.col-12.col-xs-12.col-md-6 {
     padding-left: 0;
-    padding-right: 0;
+    padding-right: 5px;
 }
 
 
@@ -196,8 +221,6 @@ div.row.borderline-top {
 div.caption {
     text-align: center;
 }
-
-
 
 h1.text-fix {
     color: #fff;
@@ -259,6 +282,13 @@ img.rounded-circle {
     margin-right: 33%;
     margin-top: 5%;
     max-width: 33%;
+}
+
+.picture-size {
+    max-width: 200px;
+    border-radius: 15px;
+    margin-left: 23%;
+    margin-right: 23%;
 }
 
 i.fa.fa-check-circle {
@@ -332,16 +362,16 @@ address a {
     color: #262626;
 }
 
-
-
-.img-fix-2 {
-    max-width: 75%;
-}
-
 /* -----------------------Dashboard */
 
 td a {
     color: #262626;
+}
+
+div.col-12.col-xl-12 {
+    max-width: 100%;
+    padding-left: 5px;
+    padding-right: 0;
 }
 
 #piechart {
@@ -360,7 +390,13 @@ td a {
     padding-top: 15px;
 }
 
-
+#chart_div {
+    width: 400px;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+}
 
 rect {
     max-width: 50%;
@@ -391,5 +427,22 @@ h3.text-margin {
 }
 
 
+/* ------------------- Gallery picture */
 
+#carouselExampleFade {
+    border: 5px solid #5297FF;
+    padding: 15px;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
 
+.carousel-item {
+    max-width: 500px;
+    max-height: 500px;
+}
+
+div.carousel-inner {
+    background-color:  #5297FF;
+    padding: 10px 300px 10px 300px;
+    
+}
