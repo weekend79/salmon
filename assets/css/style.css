@@ -36,7 +36,7 @@ span.navbar-toggler-icon {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
+    color: #0066ff;
 }
 
 .navbar-light .navbar-nav .active .nav-link {
@@ -44,7 +44,7 @@ span.navbar-toggler-icon {
 }
 
 .navbar-light .navbar-nav .active .nav-link:hover {
-    color: #fff;
+    color: #0066ff;
 }
 
 .navbar-light .navbar-brand {
@@ -160,12 +160,22 @@ i.fa.fa-arrow-alt-circle-down {
     display: block;
     margin: 0 33%;
 }
+
+
 a.nav-link.uppercase {
     text-align: center;
 }
 
 a.nav-link {
     text-align: center;
+}
+
+a.nav-link:hover {
+    background-color: #fff;
+}
+
+.active {
+  background-color: #fff;
 }
 
 
@@ -220,6 +230,10 @@ div.row.borderline-top {
 
 div.caption {
     text-align: center;
+}
+
+h1 {
+    padding-left: 10px;
 }
 
 h1.text-fix {
@@ -446,3 +460,44 @@ div.carousel-inner {
     padding: 10px 300px 10px 300px;
     
 }
+
+/* --------------------booking */
+
+div.col-sm-10.offset-sm-1 {
+    border: 3px solid #5297FF;
+    margin-bottom: 10%;
+    border-radius: 5px;
+}
+
+label.text-fix-2 {
+    margin-bottom: 0;
+}
+
+select#exampleFormControlSelect1.form-control {
+    margin-top: 0;
+}
+
+p.text-fix-2 {
+    margin-bottom: 0;
+}
+
+button.btn.btn-primary.btn-lg.btn-block {
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    
+}
+
+form {
+    text-align: center;
+    
+}
+
+input {
+    border-radius: 5px;
+}
+
+h1.text-fix-one {
+    text-align: center;
+}
+
