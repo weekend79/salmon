@@ -483,10 +483,6 @@ select#exampleFormControlSelect1.form-control {
     margin-top: 0;
 }
 
-p.text-fix-2 {
-    margin-bottom: 0;
-}
-
 button.btn.btn-primary.btn-lg.btn-block {
     margin-left: 0;
     margin-top: 20px;
@@ -494,8 +490,14 @@ button.btn.btn-primary.btn-lg.btn-block {
     
 }
 
+p.text-fix-2 {
+    margin-bottom: 0;
+}
+
+
+
 input {
-    border-radius: 5px;
+    border-radius: 5px; 
 }
 
 h1.text-fix-one {
