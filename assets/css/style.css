@@ -193,15 +193,17 @@ a.nav-link:hover {
   background-size: cover;
 }
 
-div {
-    display: block;
-}
-
 
 
 div.form-group {
     color: #fff;
 }
+
+div {
+    display: block;
+}
+
+
 
 div.inline-block {
     display: inline-block;
