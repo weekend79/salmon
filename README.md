@@ -3,7 +3,7 @@ As my first milestone project I chose to develop a site for my nearly local salm
 
 Link to the project: <a href="https://weekend79.github.io/salmon/index.html">Click here</a>
 
-<img src="assets/images/readme-header-2.png" alt="LaksiEtne.no" width="750">
+<img src="https://i.imgur.com/pJlSoC9.png" alt="LaksiEtne.no" width="750">
 
 ### For developers
 Clone the site locally:
