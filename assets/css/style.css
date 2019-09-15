@@ -172,13 +172,13 @@ a.nav-link {
 
 a.nav-link:hover {
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 
 .active {
   background-color: #fff;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 
 
