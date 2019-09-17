@@ -1,5 +1,5 @@
 # LaksiEtne.no
-As my first milestone project I chose to develop a site for my nearly local salmon river. The site offers information about booking, water levels, link to live cam behind the fish trap and more.
+As my first milestone project I chose to develop a site for my nearly local salmon river. The site offers information about booking, water levels, link to live cam behind the fish trap and more. The reason for this project is that salmon fishing is one of my favorite hobbies and in the summer I try to go fishing as often as possible. But for the river Etne there is only an old site with a lot of content that is hard to find your way in, so I wanted to create something new so it will be easier to find the wanted information.  
 
 Link to the project: <a href="https://weekend79.github.io/salmon/index.html">Click here</a>
 
