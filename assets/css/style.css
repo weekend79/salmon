@@ -193,7 +193,10 @@ a.nav-link:hover {
   background-size: cover;
 }
 
-
+div.container {
+    padding-left: 0;
+    padding-right: 0;
+}
 
 div.form-group {
     color: #fff;
@@ -333,7 +336,7 @@ i.fa.fa-play {
 
 .panel-title {
     font-family: "Roboto", Sans-serif;
-    margin: 0 33%;
+    margin: 0;
     text-align: center;
     font-weight: 400;
     letter-spacing: 2px;
@@ -355,6 +358,10 @@ footer div.row {
     background-color: #5297FF;
 }
 
+h5.panel-title {
+    text-align: center;
+}
+
 
 /* --------------------------LOGIN PAGE */
 
@@ -363,6 +370,10 @@ footer div.row {
     border-radius: 15px;
     margin: 2%;
     padding: 25px;
+}
+
+input.form-control {
+    background-color: #fff;
 }
 
 .form-control {
@@ -388,6 +399,10 @@ footer div.row {
 
 address a {
     color: #262626;
+}
+
+textarea.form-control {
+    background-color: #fff;
 }
 
 /* -----------------------Dashboard */
@@ -453,22 +468,26 @@ h3.text-margin {
 
 /* ------------------- Gallery picture */
 
-#carouselExampleFade {
-    border: 5px solid #5297FF;
-    padding: 15px;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-}
 
-.carousel-item {
-    max-width: 500px;
-    max-height: 500px;
+div.carousel-item {
+    max-width: 450px;
+    max-height: 750px;
+} 
+
+div.carousel-item.active {
+    margin-left: 0;
+    margin-right: 0;
+    
 }
 
 div.carousel-inner {
     background-color:  #5297FF;
-    padding: 10px 300px 10px 300px;
+    padding: 2% 30% 2% 30%;
     
+}
+
+.d-block.w-100 {
+    border-radius: 5px;
 }
 
 /* --------------------booking */
