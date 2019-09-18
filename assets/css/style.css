@@ -259,6 +259,10 @@ h1.text-fix {
     padding-top: 50px;
 }
 
+h1.dashboard {
+    padding-left: 0;
+}
+
 h3.text-fix {
     color: #fff;
 }
